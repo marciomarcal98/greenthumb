@@ -15,6 +15,11 @@
     margin-inline: auto;
   }
 
+  .no-results {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .no-results, 
   .plants {
     max-width: 56.25rem;
