@@ -1,0 +1,91 @@
+@media(min-width: 1000px) {
+  .header-desktop {
+    display: flex;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .selectors {
+    padding-block: 3.625rem;
+    max-width: 56.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+  }
+
+  .no-results, 
+  .plants {
+    max-width: 56.25rem;
+    margin-inline: auto;
+  }
+
+  .plants-header {
+    padding: 0;
+    margin-bottom: 3.375rem;
+  }
+
+  .plants-header img {
+    width: 10rem;
+  }
+
+  .plants-header strong {
+    font-size: 3.5rem;
+  }
+
+  .plants-results {
+    overflow-x: unset;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 3.5rem;
+  }
+
+  .plants-results__card {
+    width: 12.875rem;
+    height: 15.3125rem;
+  }
+
+  .plants-results__card.first {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+  }
+
+  .plants-results__card.first .plants-results__card-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .plants-results__card.first .plants-results__card-info > div {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .plants-results__card.first .plants-results__card-info > strong {
+    font-size: 2.125rem;
+    line-height: 2.375rem;
+  }
+
+  .plants-results__card.first .plants-results__card-info div strong {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .plants-results__card-plant > img {
+    width: 6.25rem;
+  }
+}
+
+@media(max-width: 999px) {
+  .header-desktop {
+    display: none;
+  }
+
+  .header-mobile {
+    display: flex;
+  }
+}

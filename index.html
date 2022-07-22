@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer type="module" src="script.js"></script>
+  <title>Green Thumb</title>
+</head>
+<body>
+  <header class="header-mobile">
+    <div class="header-mobile__info">
+      <img class="header-mobile__logo" src="./assets/icons/logo-white.svg" alt="Logo do green thumb escrito em letras brancas">
+      <strong>Find your next green friend</strong>
+      <img class="header-mobile__arrow" src="./assets/icons/arrow-down.svg" alt="seta para baixo">
+    </div>
+    <img class="mobile-leaves__mobile" src="./assets/hero/mobile/mobile-leaves.png" alt="conjunto de plantas verdes">
+    <img class="plant-person__mobile" src="./assets/hero/mobile/mobile-plantperson.png" alt="desenho de uma pessoa de camisa preta vestida de calças salmão segurando um vaso de plantas">
+  </header>
+  <header class="header-desktop">
+    <div>
+      <div class="header-desktop__info">
+        <img class="header-desktop__logo" src="./assets/icons/logo-white.svg" alt="Logo do green thumb escrito em letras brancas">
+        <strong>Find your next green friend</strong>
+        <img class="header-desktop__arrow" src="./assets/icons/arrow-down.svg" alt="seta para baixo">
+      </div>
+      <img class="left-leaves__desktop" src="./assets/hero/desktop/left-leaves.png" alt="">
+      <img class="plant-person__desktop" src="./assets/hero/desktop/plantperson.png" alt="">
+      <img class="right-leaves__desktop" src="./assets/hero/desktop/right-leaves.png" alt="">
+    </div>
+  </header>
+  <main>
+    <section id="selectors" class="selectors">
+      <div class="sunlight-selector">
+        <img src="./assets/illustrations/sun.png" alt="">
+        <p><strong>1.</strong> Set the amount of <strong>sunlight</strong> your plant will get.</p>
+        <select name="sunlight" id="sunlight">
+          <option value="default" selected disabled>Select...</option>
+          <option value="no">No sunlight</option>
+          <option value="low">Low sunlight</option>
+          <option value="high">High sunlight</option>
+        </select>
+      </div>
+      <div class="water-selector">
+        <img src="./assets/illustrations/wateringcan.png" alt="">
+        <p><strong>2.</strong> How often do you want to <strong>water</strong> your plant?</p>
+        <select name="water" id="water">
+          <option value="default" selected disabled>Select...</option>
+          <option value="regularly">Regularly</option>
+          <option value="daily">Daily</option>
+          <option value="rarely">Rarely</option>
+        </select>
+      </div>
+      <div class="chew-selector">
+        <img src="./assets/illustrations/dog.png" alt="">
+        <p><strong>3.</strong> Do you have pets? Do they <strong>chew</strong> plants?</p>
+        <select name="chew" id="chew">
+          <option value="default" selected disabled>Select...</option>
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select>
+      </div>
+    </section>
+    <section class="results">
+      <div class="no-results">
+        <div class="no-results__texts">
+          <strong>No results yet...</strong>
+          <p>Use the filters above to find the plant that best fits your environment :)</p>
+        </div>
+        <img src="./assets/illustrations/no-results.png" alt="">
+      </div>
+      <div class="plants">
+        <div class="plants-header">
+          <img src="./assets/illustrations/pick.png" alt="">
+          <strong>Our picks for you</strong>
+        </div>
+        <div class="plants-results">
+        </div>
+        <a href="#selectors">
+          <img src="./assets/icons/arrow-up.svg" alt="">
+          back to the top
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

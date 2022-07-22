@@ -1,0 +1,55 @@
+.header-desktop {
+  background: var(--green-200);
+  height: 31.25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-desktop > div {
+  max-width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.header-desktop__info {
+  position: absolute;
+  width: 100%;
+  max-width: 56.25rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.625rem;
+}
+
+.header-desktop__info strong {
+  color: var(--white);
+  font-size: 4.675rem;
+  display: block;
+  max-width: 30rem;
+}
+
+.header-desktop__logo {
+  width: 13.125rem;
+  margin-bottom: 2.625rem;
+}
+
+.header-desktop__arrow {
+  margin-top: 1.5rem;
+  width: 2.875rem;
+}
+
+.left-leaves__desktop {
+  width: 53.85rem;
+}
+
+.plant-person__desktop {
+  width: 20.5rem;
+  margin-left: -4rem;
+  height: 26.75rem;
+  margin-block: calc((31.25rem - 26.75rem) / 2)
+}
+
+.right-leaves__desktop {
+  width: 22.625rem;
+}

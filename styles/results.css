@@ -1,0 +1,134 @@
+.results {
+  padding: 3rem 1rem;
+  background: var(--gray-100);
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-results__texts {
+  width: 15.625rem;
+  color: var(--gray-300);
+  margin-bottom: 2rem;
+}
+
+.no-results__texts strong {
+  font-size: 2.75rem;
+  line-height: 3.375rem;
+}
+
+.no-results__texts p {
+  margin-top: 1rem;
+  line-height: 1.75rem;
+}
+
+.no-results img {
+  width: 5.25rem;
+}
+
+.plants {
+  padding: 0.625rem;
+  display: none;
+}
+
+.plants a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 100%;
+  border: 1px solid var(--green-700);
+  padding: 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: var(--green-700);
+}
+
+.plants a:hover {
+  color: var(--white);
+  background: var(--green-700);
+}
+
+.plants a:hover img {
+  color: var(--white);
+}
+
+.plants-header {
+  padding: 0 1.25rem;
+}
+
+.plants-header img {
+  width: 9.125rem;
+  margin-bottom: 1rem;
+}
+
+.plants-header strong {
+  font-size: 2.5rem;
+  color: var(--green-900);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.plants-results {
+  display: flex;
+  overflow-x: scroll;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.plants-results__not-found {
+  padding: 0 1.25rem;
+  color: var(--red-500);
+  line-height: 1.5rem;
+}
+
+.plants-results__card {
+  padding-top: 1.25rem;
+  background: var(--white);
+  border-radius: 5px;
+  width: 16.125rem;
+  margin-inline: auto;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.plants-results__card-favorite {
+  position: absolute;
+}
+
+.plants-results__card-plant {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 1.25rem;
+  color: var(--green-600);
+}
+
+.plants-results__card-plant > img {
+  width: 12rem;
+  margin-inline: auto;
+  margin-bottom: 0.5rem;
+}
+
+.plants-results__card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.plants-results__card-info > div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plants-results__card-info__icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}

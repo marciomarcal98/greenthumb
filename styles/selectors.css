@@ -1,0 +1,42 @@
+.selectors {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectors div {
+  width: 15.625rem;
+  margin-bottom: 3rem;
+}
+
+.selectors img {
+  margin-bottom: 1rem;
+}
+
+.selectors p {
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}
+
+.selectors select {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  padding: 1rem;
+  border-radius: 25px;
+  outline: none;
+  border-color: var(--gray-400);
+  color: var(--gray-400);
+}
+
+.sunlight-selector img,
+.chew-selector img {
+  width: 4.625rem;
+}
+
+.water-selector img {
+  transform: rotateY(180deg);
+  width: 6.375rem;
+}
